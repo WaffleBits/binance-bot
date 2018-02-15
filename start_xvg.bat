@@ -1,0 +1,1 @@
+python trader.py --symbol XVGBTC --amount 0.001 --profit 1.3

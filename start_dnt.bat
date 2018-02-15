@@ -1,0 +1,1 @@
+python trader.py --symbol DNTBTC --amount 0.001 --profit 0.5 --stop_loss 0
