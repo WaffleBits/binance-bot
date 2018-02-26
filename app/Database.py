@@ -1,5 +1,5 @@
 # -*- coding: UTF-8 -*-
-# @waffurubitsu
+# @yasinkuyu
 
 import os
 import sqlite3

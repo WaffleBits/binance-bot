@@ -1,5 +1,5 @@
 # -*- coding: UTF-8 -*-
-# @waffurubitsu
+# @yasinkuyu
 
 # TODO 
 class analyze():

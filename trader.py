@@ -1,5 +1,5 @@
 # -*- coding: UTF-8 -*-
-# @waffurubitsu
+# @yasinkuyu
 
 import sys
 import argparse
@@ -32,6 +32,9 @@ if __name__ == '__main__':
     parser.add_argument('--debug', type=bool, help='Debug True/False', default=True)
     parser.add_argument('--loop', type=int, help='Loop (0 unlimited)', default=0)
 
+    #Stop bot function
+    parser.add_argument('--stopfile', type=bool, help='Use stopfile True/False', default=False)
+    
     # Working Modes
     #  - profit: Profit Hunter. Find defined profit, buy and sell. (Ex: 1.3% profit)
     #  - range: Between target two price, buy and sell. (Ex: <= 0.00100 buy - >= 0.00150 sell )
@@ -39,6 +42,7 @@ if __name__ == '__main__':
     parser.add_argument('--buyprice', type=float, help='Buy Price (Price is greater than equal <=)', default=0)
     parser.add_argument('--sellprice', type=float, help='Sell Price (Price is small than equal >=)', default=0)
     
+    parser.add_argument('--hodl_qty', type=float, help='Hodling quantity', default=0)
     option = parser.parse_args()
     
     # Get start
